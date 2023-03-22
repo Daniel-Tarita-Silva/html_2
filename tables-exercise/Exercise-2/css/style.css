@@ -1,0 +1,37 @@
+table {
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+thead {
+  background-color: lightgray;
+  text-align: center;
+}
+
+tbody {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  border: 2px solid #0000008c;
+  vertical-align: middle;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightlighred;
+}
+
+tbody td:nth-child(2) {
+  font-style: italic;
+}
+
+caption {
+  text-align: left;
+}

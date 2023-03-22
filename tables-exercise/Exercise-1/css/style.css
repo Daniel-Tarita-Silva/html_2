@@ -37,3 +37,7 @@ tfoot td:first-child {
   text-align: right;
   font-weight: bold;
 }
+
+.table-cell {
+  text-align: left;
+}
