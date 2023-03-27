@@ -1,0 +1,45 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #151515;
+  justify-content: space-between;
+}
+body {
+  background-color: #151515;
+}
+
+footer {
+  background-color: #979797;
+}
+h1 {
+  color: aqua;
+}
+.head-name .techStack-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.social-list {
+  list-style-type: none;
+}
+
+.techStack-item {
+  flex-basis: 33.333333%;
+}
+
+.project-section {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.project-item {
+  flex-basis: 50%;
+}
+
+.contact {
+  background-color: #979797;
+}

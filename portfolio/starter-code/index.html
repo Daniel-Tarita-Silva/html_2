@@ -10,20 +10,150 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style/style.css" />
     <title>Single-page Developer Portfolio</title>
   </head>
   <body>
-    adamkeyes Nice to meet you! I'm Adam Keyes. Based in the UK, I'm a front-end
-    developer passionate about building accessible web apps that users love.
-    Contact me HTML 4 Years Experience CSS 4 Years Experience JavaScript 4 Years
-    Experience Accessibility 4 Years Experience React 3 Years Experience Sass 3
-    Years Experience Projects Contact me Design portfolio HTML CSS View project
-    View code E-learning landing page HTML CSS View project View code Todo web
-    app HTML CSS JavaScript View project View code Entertainment web app HTML
-    CSS JavaScript View project View code Memory Game HTML CSS JavaScript View
-    project View code Art gallery showcase HTML CSS JavaScript View project View
-    code Contact I would love to hear about your project and how I could help.
-    Please fill in the form, and I’ll get back to you as soon as possible. Name
-    Email Message Send message adamkeyes
+    <header>
+      <span class="name">adamkeyes</span>
+      <div class="social">
+        <img
+          class="social-icon"
+          src="assets/images/icon-github.svg"
+          alt="git-icon"
+        />
+
+        <img
+          class="social-icon"
+          src="assets/images/icon-frontend-mentor.svg"
+          alt="social-icon"
+        />
+
+        <img
+          class="social-icon"
+          src="assets/images/icon-linkedin.svg"
+          alt="linkedin-icon"
+        />
+
+        <img
+          class="social-icon"
+          src="assets/images/icon-twitter.svg"
+          alt="twitter-icon"
+        />
+      </div>
+      <section class="intro">
+        <h1>Nice to meet you! I'm Adam Keyes.</h1>
+        <p>
+          Based in the UK, I'm a front-end developer passionate about building
+          accessible web apps that users love.
+        </p>
+      </section>
+
+      <p>Contact me!</p>
+    </header>
+    <main>
+      <section class="techStack-section" id="TechStack">
+        <span class="techStack-item">HTML 4 Years Experience</span>
+        <span class="techStack-item">CSS 4 Years Experience JavaScript</span>
+        <span class="techStack-item">4 Years Experience Accessibility</span>
+        <br />
+        <span class="techStack-item">4 Years Experience React</span>
+        <span class="techStack-item">3 Years Experience Sass</span>
+        <span class="techStack-item">3 Years Experience Projects</span>
+      </section>
+      <section class="project-section" id="Projects">
+        <h2>Projects</h2>
+        Contact me
+        <div class="project-item" id="project-1">
+          <img
+            src="assets/images/thumbnail-project-1-large.webp"
+            alt="project-1"
+            style="width: 30%"
+          />
+          <br />
+          Design portfolio <br />
+          HTML CSS View project View code
+        </div>
+        <div class="project-item" id="project-2">
+          <img
+            src="assets/images/thumbnail-project-2-large.webp"
+            alt="project-2"
+            style="width: 30%"
+          />
+          <p>E-learning landing page</p>
+          HTML CSS View project View code
+        </div>
+
+        <div class="project-item" id="project-3">
+          <img
+            src="assets/images/thumbnail-project-3-large.webp"
+            alt="project-3"
+            style="width: 30%"
+          />
+          <p>Todo web app</p>
+          HTML CSS JavaScript View project View code
+        </div>
+
+        <div class="project-item" id="project-4">
+          <img
+            src="assets/images/thumbnail-project-4-large.webp"
+            alt="project-4"
+            style="width: 30%"
+          />
+          <p>Entertainment web app</p>
+          HTML CSS JavaScript View project View code
+        </div>
+
+        <div class="project-item" id="project-4">
+          <img
+            src="assets/images/thumbnail-project-4-large.webp"
+            alt="project-4"
+            style="width: 30%"
+          />
+          <p>Memory Game</p>
+          HTML CSS JavaScript View project View code
+        </div>
+
+        <div class="project-item" id="project-5">
+          <img
+            src="assets/images/thumbnail-project-5-large.webp"
+            alt="project-5"
+            style="width: 30%"
+          />
+          <p>Art gallery showcase</p>
+          HTML CSS JavaScript View project View code
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact-text">
+          <h2>Contact</h2>
+          <span
+            >I would love to hear about your project and how I could help.
+            Please fill in the form, and I’ll get back to you as soon as
+            possible.</span
+          >
+        </div>
+        <div class="contact-form"></div>
+
+        <form action="">
+          <label for="name">Name</label><br />
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email</label><br />
+          <input type="text" id="email" name="email" /><br />
+          <label for="message">Message</label><br />
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="name">adamkeyes</div>
+      <div class="social"></div>
+    </footer>
   </body>
 </html>
