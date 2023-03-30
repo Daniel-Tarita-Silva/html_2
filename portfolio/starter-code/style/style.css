@@ -14,7 +14,7 @@ body {
 }
 
 footer {
-  background-color: #979797;
+  background-color: #242424;
   margin-left: 165px;
   margin-right: 165px;
 }
@@ -32,7 +32,7 @@ main {
   margin-left: 165px;
   margin-right: 165px;
 }
-.text-18-500 {
+.body-l {
   font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -41,15 +41,27 @@ main {
   color: #d9d9d9;
 }
 
-.text-48-700 {
+.heading-m {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.heading-l {
+  font-family: "Space Grotesk", sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   letter-spacing: -1.5px;
   text-align: left;
+  color: #ffffff;
 }
 
-.text-88-700 {
+.heading-xl {
+  font-family: "Space Grotesk", sans-serif;
   margin: 0px;
   font-size: 88px;
   color: #ffffff;
@@ -81,24 +93,52 @@ main {
 
 .techStack-item {
   flex-basis: 33.333333%;
+  display: flex;
+  flex-direction: column;
 }
 
 .techStack-section {
-  flex-wrap: wrap;
+  padding-top: 72px;
+  border-top: solid #979797 1px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 58px;
 }
 
 .project-section {
+  margin-top: 140px;
+  margin-bottom: 139px;
   flex-wrap: wrap;
   display: flex;
+  justify-content: space-between;
+  row-gap: 69px;
+  column-gap: 30px;
+}
+
+.project-header {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
 .project-item {
-  flex-basis: 50%;
+  flex-basis: 48%; /* TODO: COMO MANTER UMA COLUMN-GAP DE 30PX E 2 ITEMS POR COLUNA */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 20px;
 }
 
 .contact {
-  background-color: #979797;
+  margin-top: 84px;
+  background-color: #242424;
 }
 
 .social {
